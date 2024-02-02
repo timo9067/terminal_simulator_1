@@ -14,4 +14,5 @@ EXPOSE 5000
 # Define environment variable
 
 
-CMD ["waitress-serve", "--host=0.0.0.0", "--port=5000", "app:app"]
+# CMD ["waitress-serve", "--host=0.0.0.0", "--port=5000", "app:app"]
+CMD waitress-serve --host=0.0.0.0 --port=$PORT term_sim:app
