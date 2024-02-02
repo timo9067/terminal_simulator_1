@@ -14,5 +14,4 @@ EXPOSE 5000
 # Define environment variable
 
 
-# CMD gunicorn --bind 0.0.0.0:$PORT term_sim:app
-CMD ["gunicorn", "--bind" "0.0.0.0:$PORT", "term_sim:app"]
+CMD gunicorn --bind 0.0.0.0:$PORT term_sim:app
