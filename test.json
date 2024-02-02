@@ -1,0 +1,41 @@
+{
+    "StsHeight": 60,
+    "MoveLog": {
+      "1": {
+        "TimeStamp": "2021/01/08 00:00:12.7709",
+        "StsID": "CTB_STS15",
+        "VesselID": "FE4_7",
+        "Status": "PickContainerVessel",
+        "EventType": "Discharging",
+        "ContainerID": "Container24279",
+        "ContainerSize": "40",
+        "PositionX": 1238,
+        "PositionY": 46.53,
+        "PositionZ": -15.65
+      },
+      "2": {
+        "TimeStamp": "2021/01/08 00:00:12.8888",
+        "StsID": "CTB_STS15",
+        "VesselID": "FE4_7",
+        "Status": "DropContainerQuay",
+        "EventType": "Discharging",
+        "ContainerID": "Container24279",
+        "ContainerSize": "40",
+        "PositionX": 1238,
+        "PositionY": 129.1,
+        "PositionZ": 3.8
+      },
+      "3": {
+        "TimeStamp": "2021/01/08 00:00:33.5008",
+        "StsID": "CTB_STS18",
+        "VesselID": "FE4_7",
+        "Status": "PickContainerVessel",
+        "EventType": "Discharging",
+        "ContainerID": "Container23979",
+        "ContainerSize": "40",
+        "PositionX": 1410,
+        "PositionY": 58.13,
+        "PositionZ": 4.02
+      }
+    }
+}
